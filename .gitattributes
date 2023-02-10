@@ -1,2 +1,1 @@
-example_data filter=lfs diff=lfs merge=lfs -text
 Chimera_Display_Optional_Software.7z filter=lfs diff=lfs merge=lfs -text
