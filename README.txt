@@ -6,7 +6,7 @@ Compatible LabVIEW Versions: >= 2020(64bit).
 Software Prerequest: Vision Development Module >= 2020
 
 Optional (Install only if require support from Codec):
-Codec: Chimera_Display_Optional_Software->Codec_Installer.bat
+Codec: Chimera_Display_Optional_Support->Codec_Installer.bat
 
 Optional (Install only if require support from OpenCV.lvlib or sklearn.lvlib):
 Python Core and PIP: python-3.6.8-amd64.exe
@@ -25,7 +25,7 @@ Change Log:
 2023.02.10
 1: Fix a bug in "Image_Viewer_3.0" INI configuration window
 2: Fix a bug in "Image_Viewer_3.0" Codec window
-3：Support get absoulte timestamp from TDMS Property "TO" from Group and Channel "LLP Pacaket Data"
+3：Support get absoulte timestamp from TDMS Property "T0" from Group and Channel "LLP Pacaket Data"
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2023.02.02
 1: Add "tools->ImageSenderShim_Timestamp_Embedded_Data_Generator.vi"
