@@ -1,5 +1,5 @@
-Build Version 23.2.2.2
-Build Data 230215
+Build Version 23.2.3.3
+Build Data 230216
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 Compatible LabVIEW Versions: >= 2020(64bit).
@@ -22,11 +22,12 @@ License:
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 Change Log:
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-2023.02.15
-1: Rewrite tools->TDMS_File_Fixer to improve efficiency
-2: For TDMS files with corrupted first LLP, enable "Update Frame Start Index to File" to fix the file in "TDMS_File_Fixer"
-3: In Image_Viewer_3.0, add a "Manual Overwrite Offset" control
-4：Fix a bug in MIPI_LLP_Aanalyzer_TDMS.vi to support TDMS file with corrupted first LLP
+2023.02.16
+1: Improve user experience for "tools->ImageSenderShim_Timestamp_Embedded_Data_Generator.vi"
+2: Rewrite tools->TDMS_File_Fixer to improve efficiency
+3: For TDMS files with corrupted first LLP, enable "Update Frame Start Index to File" to fix the file in "TDMS_File_Fixer"
+4: In Image_Viewer_3.0, add a "Manual Overwrite Offset" control
+5: Fix a bug in MIPI_LLP_Aanalyzer_TDMS.vi to support TDMS file with corrupted first LLP
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2023.02.10
 1: Fix a bug in "Image_Viewer_3.0" INI configuration window
