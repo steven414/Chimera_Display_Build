@@ -25,8 +25,8 @@ Change Log:
 2023.03.16
 1: Fix a bug in "tools->TDMS_File_Fixer"
 2: Add support for saving specified packet payload to TDMS in "tools->MIPI_LLP_Analyzer_TDMS"
-3：Add support for disbale parsing TDMS "LLP Table" in "tools->MIPI_LLP_Analyzer_TDMS"
-4: Add support for saving specified packet timetamp to TDMS in "tools->MIPI_LLP_Timestamp_Viewer"
+3：Add support for disable parsing TDMS "LLP Table" in "tools->MIPI_LLP_Analyzer_TDMS"
+4: Add support for saving specified packet timestamp to TDMS in "tools->MIPI_LLP_Timestamp_Viewer"
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2023.02.27
 1: Add support for analyzing I2C from "User_Timestamps.tdms"
