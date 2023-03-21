@@ -1,5 +1,5 @@
-Build Version 23.4.2.1
-Build Data 230316
+Build Version 23.4.3.4
+Build Data 230321
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 Compatible LabVIEW Versions: >= 2020(64bit).
@@ -22,10 +22,15 @@ License:
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 Change Log:
 ///////////////////////////////////////////////////////////////////////////////////////////////////
+2023.03.21
+1: Minor bug fix for Codec
+2: Minor bug fix for Image_Viewer_3.0.vi to handle corrupted LLP
+3: Minor bug fix for Image_Viewer_3.0.vi to allow alternative snap saving folder path
+///////////////////////////////////////////////////////////////////////////////////////////////////
 2023.03.16
 1: Fix a bug in "tools->TDMS_File_Fixer"
 2: Add support for saving specified packet payload to TDMS in "tools->MIPI_LLP_Analyzer_TDMS"
-3：Add support for disable parsing TDMS "LLP Table" in "tools->MIPI_LLP_Analyzer_TDMS"
+3: Add support for disable parsing TDMS "LLP Table" in "tools->MIPI_LLP_Analyzer_TDMS"
 4: Add support for saving specified packet timestamp to TDMS in "tools->MIPI_LLP_Timestamp_Viewer"
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2023.02.27
