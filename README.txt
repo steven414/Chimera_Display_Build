@@ -25,7 +25,7 @@ Change Log:
 2023.04.04
 1: Merge "tools->TDMS_to_Payload_BIN.vi" into Image_Viewer_3.0.vi
 2: In Image_Viewer_3.0, add a "Enable Advanced Snap" control to open Advanced Snap panel
-3: Support snapping mutiple frames' payload into a single BIN file or mutiple PNG files
+3: Support snapping multiple frames' payload into a single BIN file or multiple PNG files
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2023.03.28
 1: Minor bug fix for Codec
