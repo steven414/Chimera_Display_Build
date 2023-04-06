@@ -1,5 +1,5 @@
-Build Version 23.5.0.2
-Build Data 230404
+Build Version 23.5.1.1
+Build Data 230406
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 Compatible LabVIEW Versions: >= 2020(64bit).
@@ -22,7 +22,7 @@ License:
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 Change Log:
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-2023.04.04
+2023.04.06
 1: Merge "tools->TDMS_to_Payload_BIN.vi" into Image_Viewer_3.0.vi
 2: In Image_Viewer_3.0, add a "Enable Advanced Snap" control to open Advanced Snap panel
 3: Support snapping multiple frames' payload into a single BIN file or multiple PNG files
