@@ -1,16 +1,16 @@
-Build Version 23.5.2.2
-Build Data 230512
+Build Version 23.5.4.1
+Build Data 230616
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-Compatible LabVIEW Versions: >= 2020(64bit).
-Software Prerequest: Vision Development Module >= 2020
+Compatible LabVIEW Versions: >= 2021(64bit).
+Software Prerequest: Vision Development Module >= 2021
 
 Optional (Install only if require support from Codec):
 Codec: Chimera_Display_Optional_Support->Codec_Installer.bat
 
 Optional (Install only if require support from OpenCV.lvlib or sklearn.lvlib):
 Python Core and PIP: python-3.6.8-amd64.exe
-OpenCV: pip install opencv-contrib-python
+OpenCV: pip install opencv-contrib-python==4.6.0.66
 scikit-learn: pip install -U scikit-learn
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -22,9 +22,13 @@ License:
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 Change Log:
 ///////////////////////////////////////////////////////////////////////////////////////////////////
+2023.06.16
+1: Add "Scale by Power of 2" Property in "Image_Viewer_Payload_RAW"
+2: Upgrade library from LabVIEW 2020 to LabVIEW 2021
+///////////////////////////////////////////////////////////////////////////////////////////////////
 2023.05.12
 1: Fix a bug for invalid H264 bitrate configuration in Codec
-2: Delete quality configuration in Codec, and control video quality through CBR (contant bitrate)  
+2: Delete quality configuration in Codec, and control video quality through CBR (constant bitrate) 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2023.04.06
 1: Merge "tools->TDMS_to_Payload_BIN.vi" into Image_Viewer_3.0.vi
