@@ -1,9 +1,9 @@
-Build Version 23.5.4.1
-Build Data 230616
+Build Version 23.6.0.1
+Build Data 231220
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-Compatible LabVIEW Versions: >= 2021(64bit).
-Software Prerequest: Vision Development Module >= 2021
+Compatible LabVIEW Versions: >= 2023(64bit).
+Software Prerequest: Vision Development Module >= 2023
 
 Optional (Install only if require support from Codec):
 Codec: Chimera_Display_Optional_Support->Codec_Installer.bat
@@ -21,6 +21,11 @@ License:
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 Change Log:
+///////////////////////////////////////////////////////////////////////////////////////////////////
+2023.12.20
+1: Merge Image_Viewer_RAW into Image_Viewer_3.0
+2: Add "Parse from .raw File" switch in Image_Viewer_3.0, enable to view RAW file recorded from ECU
+3: Upgrade library from LabVIEW 2021 to LabVIEW 2023
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2023.06.16
 1: Add "Scale by Power of 2" Property in "Image_Viewer_Payload_RAW"
