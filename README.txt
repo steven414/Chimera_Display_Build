@@ -1,5 +1,5 @@
-Build Version 24.0.0.4
-Build Data 240105
+Build Version 24.1.0.1
+Build Data 240206
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 Compatible LabVIEW Versions: >= 2023(64bit).
@@ -21,6 +21,13 @@ License:
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 Change Log:
+///////////////////////////////////////////////////////////////////////////////////////////////////
+2024.02.06
+1: Major Update for Image_Viewer_4.0.vi
+2: Add support for viewing TDMS with Virtual Channel
+3: "Image_Viewer_3.0", "MIPI_LLP_Analyzer_TDMS" and "MIPI_LLP_Timestamp_Viewer" now supports TDMS with Virtual Channel
+4: "TDMS_File_Frame_Extractor" now supports extracting from TDMS file based on the Virtual Channel
+5: "ImageSenderShim_Timestamp_Embedded_Data_Generator" does not support TDMS with mutiple Virtual Channels
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2024.01.05
 1: Add function to display RAW14 sensor data
