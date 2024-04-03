@@ -1,12 +1,13 @@
-Build Version 24.2.1.1
-Build Data 240325
+Build Version 24.3.0.2
+Build Data 240403
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 Compatible LabVIEW Versions: >= 2023(64bit).
 Software Prerequest: Vision Development Module >= 2023
 
 Optional (Install only if require support from Codec):
-Codec: Chimera_Display_Optional_Support->Codec_Installer.bat
+Codec: Chimea_Display_Codec_Setup.exe
+(https://github.com/steven414/Chimera_Display_Build/releases/download/Optional/Chimera_Display_Codec_Setup.exe)
 
 Optional (Install only if require support from OpenCV.lvlib or sklearn.lvlib):
 Python Core and PIP: python-3.6.8-amd64.exe
@@ -15,12 +16,19 @@ scikit-learn: pip install -U scikit-learn
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 License:
-1: Run "Get_Computer_ID.exe" to get your Computer ID
+1: Run "License_Activator.exe" to get your Computer ID
 2: Provide your Computer ID and receive a "License" file
-3: Copy "Licesne" file to your application root
+3: Import and activate "Licesne" file through "License_Activator.exe" 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 Change Log:
+///////////////////////////////////////////////////////////////////////////////////////////////////
+2024.04.03
+1: Improve License activation process experience
+2: "Get_Computer_ID.exe" now has been changed to "License_Activator.exe"
+3: Improve installation process experience for Codec
+3: Minor bug fix
+4: Minor UI adjustment
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2024.03.25
 1: Update "Gain"(Color Correction Matrix) function in Image Processing panel
