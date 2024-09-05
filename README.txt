@@ -1,9 +1,9 @@
-Build Version 24.3.0.2
-Build Data 240403
+Build Version 24.4.0.1
+Build Data 240905
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-Compatible LabVIEW Versions: >= 2023(64bit).
-Software Prerequest: Vision Development Module >= 2023
+Compatible LabVIEW Versions: >= 2024(64bit).
+Software Prerequest: Vision Development Module >= 2024Q1
 
 Optional (Install only if require support from Codec):
 Codec: Chimea_Display_Codec_Setup.exe
@@ -23,12 +23,17 @@ License:
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 Change Log:
 ///////////////////////////////////////////////////////////////////////////////////////////////////
+2024.09.05
+1："TDMS File Frame Extractor" now supports extracting from TDMS file with all Virtual Channel
+2: Upgrade library from LabVIEW 2023 to LabVIEW 2024
+3：Add new GMSL2 YUV422 with Virtual Channel TDMS example data
+///////////////////////////////////////////////////////////////////////////////////////////////////
 2024.04.03
 1: Improve License activation process experience
 2: "Get_Computer_ID.exe" now has been changed to "License_Activator.exe"
 3: Improve installation process experience for Codec
-3: Minor bug fix
-4: Minor UI adjustment
+4: Minor bug fix
+5: Minor UI adjustment
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2024.03.25
 1: Update "Gain"(Color Correction Matrix) function in Image Processing panel
