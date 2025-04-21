@@ -1,5 +1,5 @@
-Build Version 24.5.0.1
-Build Data 240910
+Build Version 25.0.0.8
+Build Data 250421
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 Compatible LabVIEW Versions: >= 2024(64bit).
@@ -10,22 +10,28 @@ Codec: Chimea_Display_Codec_Setup.exe
 (https://github.com/steven414/Chimera_Display_Build/releases/download/Optional/Chimera_Display_Codec_Setup.exe)
 
 Optional (Install only if require support from OpenCV.lvlib or sklearn.lvlib):
-Python Core and PIP: python-3.6.8-amd64.exe
-OpenCV: pip install opencv-contrib-python==4.6.0.66
+Python Core and PIP: python-3.7.9-amd64.exe
+OpenCV: pip install opencv-contrib-python
 scikit-learn: pip install -U scikit-learn
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 License:
 1: Run "License_Activator.exe" to get your Computer ID
 2: Provide your Computer ID and receive a "License" file
-3: Import and activate "Licesne" file through "License_Activator.exe" 
+3: Import and activate "License" file through "License_Activator.exe" 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 Change Log:
 ///////////////////////////////////////////////////////////////////////////////////////////////////
+2025.04.21
+1: Major Update for Image_Viewer_5.0.vi
+2：Add support for displaying H264/H265 file in Image_Viewer
+3: Add APIs for processing H264/H265 file in "Image_Viewer->Image_Video" through OpenCV integration
+4: Add APIs for RGB888 to multiple formats conversion   
+///////////////////////////////////////////////////////////////////////////////////////////////////
 2024.09.10
 1: Add support for importing Gain (Color Correction Matrix) Parameters from JSON file in "Image Processing" panel
-2: Add example Color Correction Matrix JSON files in example data->Sensor_Model
+2: Add example Color Correction Matrix JSON files in example data->Sensor Model
 3: Minor UI adjustment
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2024.09.05
@@ -103,7 +109,7 @@ Change Log:
 2023.02.10
 1: Fix a bug in "Image_Viewer_3.0" INI configuration window
 2: Fix a bug in "Image_Viewer_3.0" Codec window
-3：Support get absoulte timestamp from TDMS Property "T0" from Group and Channel "LLP Pacaket Data"
+3：Support get absolute timestamp from TDMS Property "T0" from Group and Channel "LLP Packet Data"
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2023.02.02
 1: Add "tools->ImageSenderShim_Timestamp_Embedded_Data_Generator.vi"
@@ -117,12 +123,12 @@ Change Log:
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2022.11.10
 1: Add "tools->MIPI_LLP_Analyzer_TDMS (GMSL1).vi"
-2: Add MIPI_LLP_Analyzer_TDMS (GMSL1).exe to build->Addtional Tools
+2: Add MIPI_LLP_Analyzer_TDMS (GMSL1).exe to build->Additional Tools
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2022.09.27
 1: Minor UI adjustment for Image_Viewer_3.0
 2: Minor bug fix for Codec
-3: Add Image_Viewer_RAW.exe to build->Addtional Tools
+3: Add Image_Viewer_RAW.exe to build->Additional Tools
 4: Image_Viewer_RAW is used to view RAW12 sensor data captured from ECU with soft ISP disabled
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2022.09.08
@@ -174,7 +180,7 @@ Change Log:
 3: Add "tools->TDMS Timestamp Viewer.vi"
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2022.07.12
-1: Add tools "tools->TDMS_File_Fixer.vi" to detect the possible first compelete frame offset
+1: Add tools "tools->TDMS_File_Fixer.vi" to detect the possible first complete frame offset
 2: Add file read start offset to handle situation when the first LLP captured from GMSL2 is corrupted
 3: File Read Start offset is supported at "Image_Viewer_2.0" and "TDMS_File_Frame_Extractor"
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -191,7 +197,7 @@ Change Log:
 2022.06.16
 1: Bug Fix for "Info" and "Image Processing" window shortcut
 2: Snap processed image into PNG is allowed in the "Info" window
-3: Reorder build folder, all Licesne Free programs are now put into "Addtional Tools"
+3: Reorder build folder, all License Free programs are now put into "Additional Tools"
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2022.06.10
 1: Add example "example->Image_Viewer_YUV_Batch.vi"
@@ -231,14 +237,14 @@ Change Log:
 3: Add "tools->BIN File Frame Extractor.vi"
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2022.02.09
-1: Add fucntion to overwrite TDMS file LLP packet in "MIPI_LLP_Analyzer_TDMS"
+1: Add function to overwrite TDMS file LLP packet in "MIPI_LLP_Analyzer_TDMS"
 2: Bug fix for wrong display of total number of frames
 3: Bug fix for wrong continuous Read Response in "GMSL2_TAP_Recorded_I2C_to_Chimera.vi"
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2022.01.26
 1: Optimize to reduce program size
 2: Allow multiple instances of LabVIEW executable build
-3: Add function to dislay Bytes per Frame
+3: Add function to display Bytes per Frame
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2022.01.24
 1: Minor bug fix
@@ -289,7 +295,7 @@ Change Log:
 2: Add packet Timestamp analyzer in "GMLS2_LLP_Analyzer_TDMS.vi"
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2021.06.25
-1: Changing Image Sensor Pattern is supported on the fly without quiting the program
+1: Changing Image Sensor Pattern is supported on the fly without quitting the program
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 2021.06.18
 1: Fix a major bug in displaying U8 type RAW12 frame and converting RGB888 to U8 type RAW12
